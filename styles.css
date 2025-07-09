@@ -1,0 +1,19 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4s6vRFlZfeAJ5gaZX1t3j6-pHR4fZe6AkevbOdze2jBvNG1wUiwggm48&s=10');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  position: relative;
+  }
+  
+  hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  width: 5%;
+  }
