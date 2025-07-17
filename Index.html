@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LIGHT GABRIELS</title>
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Merriweather", serif;
+      text-align: center;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    h1 {
+      font-family: "Sacramento", cursive;
+      font-size: 5rem;
+      margin: 0;
+    }
+
+    h2, h3 {
+      font-family: "Montserrat", sans-serif;
+      margin: 1rem 0 0.5rem;
+    }
+
+    .top-container {
+      background-color: #E4F9F5;
+      padding-top: 100px;
+      padding-bottom: 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .top-cloud, .bottom-cloud {
+      width: 100px;
+      position: absolute;
+      z-index: 1;
+      animation: floatClouds 8s ease-in-out infinite alternate;
+    }
+
+    .top-cloud {
+      top: 40px;
+      right: 50px;
+    }
+
+    .bottom-cloud {
+      top: 150px;
+      left: 50px;
+    }
+
+    @keyframes floatClouds {
+      0% {
+        transform: translateX(0px);
+      }
+      100% {
+        transform: translateX(30px);
+      }
+    }
+
+    .mountain {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin-top: 20px;
+    }
+
+    .programmer {
+      font-size: 2rem;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 10px;
+    }
+
+    .bio-section {
+      padding: 50px 20px;
+    }
+
+    .bio-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .contact-info table {
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    .contact-info td {
+      padding: 6px 12px;
+      text-align: left;
+    }
+
+    .bio-columns {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 50px;
+      margin-top: 30px;
+    }
+
+    .bio-columns div {
+      width: 250px;
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .drum-ad {
+      background: #1e1e1e;
+      color: #fff;
+      padding: 50px 20px;
+      margin-top: 0;
+    }
+
+    .drum-ad h2 {
+      color: #FFD700;
+    }
+
+    .drum-ad p {
+      font-size: 1.1rem;
+      margin: 20px 0;
+    }
+
+    .drum-ad a {
+      background: #FFD700;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #1e1e1e;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .drum-ad a:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    footer {
+      background: #ddd;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .bio-columns {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .top-cloud, .bottom-cloud {
+        width: 80px;
+      }
+
+      .programmer {
+        font-size: 1.5rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+    <h1>I'm Light</h1>
+    <p class="programmer">A Programmer</p>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+    <img class="mountain" src="images/mountain.png" alt="mountain-img" />
+  </div>
+
+  <section class="bio-section">
+    <img src="https://i.imgur.com/hBYMnKX.jpeg" alt="Light Gabriels" class="bio-photo" />
+    <h2>About Me</h2>
+    <p>Hello! I'm Light Gabriels — a passionate Programmer, lover of God, and final-year Mathematics student at FUPRE. I believe in diligence, truth, creativity, and using technology to uplift others.</p>
+
+    <div class="contact-info">
+      <h3>Contact Me</h3>
+      <table>
+        <tr>
+          <td><strong>Email:</strong></td>
+          <td><a href="mailto:thelightofgabriels@gmail.com">thelightofgabriels@gmail.com</a></td>
+        </tr>
+        <tr>
+          <td><strong>Phone:</strong></td>
+          <td><a href="tel:+2348168248990">+2348168248990</a></td>
+        </tr>
+        <tr>
+          <td><strong>WhatsApp:</strong></td>
+          <td><a href="https://wa.me/2348168248990" target="_blank">Chat on WhatsApp</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="bio-columns">
+      <div>
+        <h3>Goals</h3>
+        <ul>
+          <li>To know God deeply</li>
+          <li>To become a skilled full-stack developer</li>
+          <li>To impact lives through tech and music</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript, Python</li>
+          <li>Web Development</li>
+          <li>UI/UX Concepts</li>
+          <li>Problem-Solving</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Values</h3>
+        <ul>
+          <li>Faith</li>
+          <li>Excellence</li>
+          <li>Integrity</li>
+          <li>Service</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="drum-ad">
+    <h2>🎵 LIGHT'S DRUMMING ACADEMY</h2>
+    <p>Discover the rhythm of purpose and passion at Light's Drumming Academy! Whether you're a beginner or advanced, come learn, improve, and express yourself through the art of drumming. Let’s make music that moves the world!</p>
+    <a href="drumming.html">Visit The Academy</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Light Gabriels. All rights reserved.</p>
+  </footer>
+</body>
+</html>
